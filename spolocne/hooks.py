@@ -1,14 +1,14 @@
 app_name = "spolocne"
-app_title = "Spolocne"
+app_title = "Informačný Systém"
 app_publisher = "romanuss"
-app_description = "Spolocne upravy a nastavenia"
+app_description = "Spolocne funkcie pre vsetky moduly"
 app_email = "furo.roman@gmail.com"
 app_license = "mit"
 
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["erpnext"]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -25,11 +25,11 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/spolocne/css/spolocne.css"
-# app_include_js = "/assets/spolocne/js/spolocne.js"
+app_include_css = "/assets/spolocne/css/whitelabel.css"
+app_include_js = "/assets/spolocne/js/whitelabel.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/spolocne/css/spolocne.css"
+web_include_css = "/assets/spolocne/css/whitelabel_login.css"
 # web_include_js = "/assets/spolocne/js/spolocne.js"
 
 # include custom scss in every website theme (without file extension ".scss")

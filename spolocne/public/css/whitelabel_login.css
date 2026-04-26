@@ -1,0 +1,12 @@
+/* Whitelabeling pre prihlasovaciu (Web) obrazovku */
+
+/* Odstránenie spodných Frappe odkazov */
+footer, 
+.page-footer {
+    display: none !important;
+}
+
+/* Skrytie prípadných odkazov na frappe.io na stránke login */
+a[href*="frappe.io"] {
+    display: none !important;
+}

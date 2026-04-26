@@ -1,0 +1,23 @@
+/* Whitelabeling pre Frappe administrátorské rozhranie (Desk) */
+
+/* Skrytie textov a log v nápovede a podobne */
+.help-links a[href*="frappe.io"], 
+.help-links a[href*="erpnext.com"] {
+    display: none !important;
+}
+
+/* Skrytie "Built on Frappe" v pätičke, ak sa niekde zobrazuje */
+.built-on-frappe,
+[data-name="built_on_frappe"] {
+    display: none !important;
+}
+
+/* Úprava Splash screenu (načítavacej obrazovky) - odstránenie štandardného loga */
+#startup .splash-icon {
+    display: none !important;
+}
+
+/* Namiesto toho jednoduchý spinner alebo prázdna obrazovka */
+#startup {
+    background-color: var(--bg-color);
+}
